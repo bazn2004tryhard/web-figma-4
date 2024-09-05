@@ -40,6 +40,9 @@ a {
 }
 .header.fixed .nav ul {
   display: flex;
+  list-style-type: none; /* Loại bỏ dấu chấm trước các mục trong danh sách */
+  padding: 0; /* Loại bỏ khoảng cách bên trái */
+  margin: 0; /* Loại bỏ khoảng cách bên ngoài */
 }
 .nav a {
   padding: 8px 19.5px;
@@ -49,6 +52,7 @@ a {
   line-height: normal;
 }
 .nav a:hover {
+  color: #2f3a3b;
   font-weight: 600;
 }
 .header.fixed .action {
