@@ -18,6 +18,21 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+.btn {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0 41px;
+  line-height: 68px;
+  border-radius: 14px;
+  background: #1ebfc1;
+  box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+}
+.btn:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
 /* =========================== header ============== */
 .header {
   background: #fff;
@@ -86,4 +101,152 @@ a {
   z-index: 1;
   position: sticky;
   top: -44px;
+}
+/* ========================== hero ============== */
+hero {
+  padding: 49px 0 79px;
+}
+.hero .body {
+  display: flex;
+}
+/* ========================== hero left ============== */
+.hero .hero-left {
+  width: 50%;
+  padding: 93px 136px 93px 0;
+}
+.hero .hero-left span {
+  color: #767e7e;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.hero .hero-left h1.title {
+  width: 458px;
+  color: #0d1111;
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.16; /* 116.129% */
+}
+.hero .hero-left p.desc {
+  width: 374px;
+  color: #9da6a5;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.78; /* 177.778% */
+}
+.hero .hero-left btn {
+  width: 186px;
+  height: 68px;
+}
+.hero .hero-left .hl-btn {
+  display: flex;
+  align-items: center;
+}
+.hero .hero-left a img {
+  width: 14px;
+  height: 18px;
+}
+.hero .hero-left a {
+  padding: 22px;
+  width: 62px;
+  height: 62px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 50px;
+}
+/* ========================== hero right ============== */
+.hero .hero-right {
+  width: 50%;
+  position: relative;
+}
+.hero .hero-right .chandung {
+  margin-top: 50px;
+  width: 576px;
+  height: 631px;
+  background: url(<path-to-image>) lightgray -187.189px -71.417px / 157.903%
+    111.318% no-repeat;
+  position: relative;
+}
+.hero .hero-right .courses {
+  display: flex;
+  padding: 17px 23px 18px 25px;
+  align-items: center;
+  top: 149px;
+  left: -40px;
+  width: 157px;
+  height: 75px;
+  border-radius: 18px;
+  background: #dadab8;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+  position: absolute;
+}
+.hero .hero-right .courses p.desc-2 {
+  margin-left: 16px;
+}
+.hero .hero-right .schedules {
+  width: 124px;
+  height: 132px;
+  display: flex;
+  position: absolute;
+  top: 453px;
+  left: -65px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  background: #b8aeaee2;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.hero .hero-right .schedules img {
+  padding: 6px 25px;
+}
+.hero .hero-right .ActiveST {
+  position: absolute;
+  width: 207px;
+  height: 90px;
+  border-radius: 24px;
+  background: #d6d9ed88;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+  top: 500px;
+  bottom: 41px;
+  right: -45px;
+  left: 324px;
+}
+.hero .hero-right .ActiveST p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .hero-right .ActiveST .image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero-right .ActiveST span {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  padding: 9px 5px;
+  font-size: 10px;
+  color: #fff;
+  font-weight: 500;
+  flex-direction: row;
+  text-align: center;
+  /* Căn giữa nội dung văn bản trong <span> */
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: #1ebfc1;
+  border-radius: 50%;
+  left: -7px;
+}
+
+.hero .hero-right .ActiveST .image img {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  background-color: #1ebfc1;
+  border-radius: 50%;
+  left: -7px;
 }
