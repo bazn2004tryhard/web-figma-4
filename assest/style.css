@@ -199,6 +199,7 @@ hero {
 }
 .hero .hero-right .schedules img {
   padding: 6px 25px;
+  object-fit: cover;
 }
 .hero .hero-right .ActiveST {
   position: absolute;
@@ -249,4 +250,198 @@ hero {
   background-color: #1ebfc1;
   border-radius: 50%;
   left: -7px;
+}
+/* ============= features ============= */
+.features {
+  height: 660px;
+  background: #f7f2f2;
+  margin-right: 146px;
+  margin-top: 130px;
+  margin-left: 135px;
+}
+.features .content {
+  gap: 18px;
+}
+.features .content p:first-of-type {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.features .content h2 {
+  color: #0d1111;
+  width: calc(100% - 49.3%);
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: 1.33; /* 133.333% */
+}
+.features .content p:last-of-type {
+  width: calc(100% - 50.4%);
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.features .content-2 {
+  margin-top: 80px;
+  height: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+.features .content-2 .image {
+  width: 102px;
+  height: 106px;
+  object-fit: cover;
+}
+.features .content-2 .head {
+  color: #0d1111;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.features .content-2 .desc {
+  color: #9da6a5;
+
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.69; /* 168.75% */
+  overflow: hidden; /* Ẩn phần nội dung vượt quá */
+  display: -webkit-box; /* Cần thiết cho dòng văn bản nhiều */
+  -webkit-line-clamp: 3; /* Giới hạn chỉ hiển thị 3 dòng */
+  -webkit-box-orient: vertical; /* Cần thiết để định hướng hộp theo chiều dọc */
+  text-overflow: ellipsis;
+}
+.features .content-2 .liveC {
+  width: 14.4%;
+}
+.features .content-2 .Disc {
+  width: 19%;
+}
+.features .content-2 .Task {
+  width: 19.2%;
+}
+/* ====================== course ========= */
+.courses {
+  margin-top: 130px;
+}
+.courses .content {
+  gap: 18px;
+}
+.courses .content p:first-of-type {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.courses .content p:last-of-type {
+  width: 525px;
+  overflow: hidden; /* Ẩn phần nội dung vượt quá */
+  display: -webkit-box; /* Cần thiết cho dòng văn bản nhiều */
+  -webkit-line-clamp: 2; /* Giới hạn chỉ hiển thị 3 dòng */
+  -webkit-box-orient: vertical; /* Cần thiết để định hướng hộp theo chiều dọc */
+  text-overflow: ellipsis;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78; /* 177.778% */
+}
+.courses .content h2 {
+  color: #0d1111;
+  font-size: 4.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.courses .sell {
+  margin-top: 79px;
+  display: flex;
+  gap: 47px;
+}
+.courses .sell .image {
+  width: 359px;
+  height: 393px;
+  border-radius: 8px;
+  opacity: 0.35;
+  background: #c1ebe9e3;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Đổ bóng nhẹ khi di chuột */
+}
+.courses .sell .infor .head {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.courses .sell .infor p:nth-of-type(2) {
+  margin-top: 16;
+  margin-bottom: 0;
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.courses .sell .infor strong {
+  color: #0d1111;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+.courses .sell .infor .desc {
+  margin-top: 6px;
+  margin-bottom: 0;
+  color: #9da6a5;
+  font-size: 1.4rem;
+  font-weight: 400;
+  overflow: hidden; /* Ẩn phần nội dung vượt quá */
+  display: -webkit-box; /* Cần thiết cho dòng văn bản nhiều */
+  -webkit-line-clamp: 1; /* Giới hạn chỉ hiển thị 3 dòng */
+  -webkit-box-orient: vertical; /* Cần thiết để định hướng hộp theo chiều dọc */
+  text-overflow: ellipsis;
+}
+.courses .sell .webdes,
+.courses .sell .webdev,
+.courses .sell .Udes {
+  position: relative;
+}
+.courses .sell .webdev .infor,
+.courses .sell .Udes .infor,
+.courses .sell .webdes .infor {
+  position: absolute;
+  top: 322px;
+  left: 17px;
+  padding: 18px 35px 29px 25px;
+  width: 325px;
+  height: 195px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+}
+.courses .sell .infor:hover {
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Đổ bóng nhẹ khi di chuột */
+}
+.courses .sell .moreinfor {
+  display: flex;
+  gap: 10px;
+
+  align-items: center;
+}
+.courses .sell .moreinfor .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #1ebfc1;
+}
+.courses .sell .moreinfor p {
+  display: inline-block;
+  color: #9da6a5;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+}
+.courses .sell .moreinfor p:last-of-type {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.courses .sell .moreinfor .dot:first-of-type {
+  margin-left: o;
 }
