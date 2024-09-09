@@ -12,6 +12,9 @@ body {
 a {
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 .main-content {
   width: 1170px;
   max-width: calc(100% - 48px);
@@ -444,4 +447,206 @@ hero {
 
 .courses .sell .moreinfor .dot:first-of-type {
   margin-left: o;
+}
+/* ************************** view **************** */
+.view .body {
+  width: 862px;
+  height: 131px;
+  margin: 265px 154px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.view .body .view-s {
+  height: 135px;
+  width: 148px;
+}
+.view .body .view-s h2 {
+  text-align: center;
+  color: #0d1111;
+
+  text-align: center;
+  font-size: 6.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+.view .body .view-s .desc {
+  color: #767e7e;
+  margin-top: 11px;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+/* ======================= student ========= */
+.student .body {
+  display: flex;
+}
+.student .body img:first-of-type {
+  width: 36px;
+  height: 29px;
+}
+.student .body .st-desc {
+  width: 419px;
+  color: #5d6564;
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 1.5; /* 150% */
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Giới hạn hiển thị 4 dòng */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.student .content p:nth-child(3) {
+  color: #767e7e;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.student .content p:nth-child(3) strong {
+  color: #070707;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.student .content .slide {
+  margin-top: 52px;
+  margin-bottom: 37px;
+  display: flex;
+  gap: 30px;
+}
+.student .content .slide a {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #1ebfc1;
+  justify-content: center;
+  align-items: center;
+}
+.student .content .slide .icon {
+  width: 6px;
+  height: 12px;
+}
+.student .content .slide a:hover {
+  background-color: #1ebec181;
+}
+.student .body .picture {
+  position: relative;
+  width: calc(100% - 420px);
+}
+.student .body .picture .pic {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+}
+.student .body .picture .pic1 {
+  top: 258px;
+  left: 72px;
+  background: #ffc147;
+}
+.student .body .picture .pic2 {
+  top: 403px;
+  left: 284px;
+  background: #ff947a;
+}
+.student .body .picture .pic3 {
+  top: 374px;
+  left: 641px;
+  background: #b1dfdc;
+}
+.student .body .picture .pic4 {
+  width: 235px;
+  height: 235px;
+  top: 107px;
+  left: 345px;
+  background: #ff947a;
+}
+.student .body .picture .pic5 {
+  width: 92px;
+  height: 92px;
+  left: 216px;
+  background: #1ebfc1;
+}
+.student .body .picture .pic6 {
+  width: 110px;
+  height: 110px;
+  top: 19px;
+  left: 641px;
+  background: #bf83ff;
+}
+/* ==============banner ========= */
+.banner {
+  height: 272px;
+  margin-top: 130px;
+  background: #def6f5;
+}
+.banner .body {
+  display: flex;
+}
+.banner .content h2 {
+  margin-top: 76px;
+  margin-bottom: 0;
+  width: 420px;
+  color: #070707;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+.banner .content p {
+  margin-top: 18px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+.banner button {
+  margin: 96px 154px 108px 410px;
+  width: 186px;
+  height: 68px;
+  border-radius: 14px;
+  background: #2ac9bf;
+  border: none;
+}
+.banner button p {
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+/* ================= footer ============ */
+footer .f-top {
+  padding-top: 131px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .header-logo {
+  width: 132px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+}
+footer .f-top .f-box ul {
+  text-align: center;
+  padding-left: 0;
+}
+footer .f-top .f-box:last-of-type ul li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+footer .f-top .f-box > p {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+footer .f-top .f-box ul li p {
+  color: #535353;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+footer .f-bot {
+  display: flex;
+  justify-content: center;
+  color: #b0b5b4;
+  font-size: 1.8rem;
+  font-weight: 400;
 }
